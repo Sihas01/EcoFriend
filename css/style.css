@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.fist-head{
+    background-color: #6BB848;
+    height: 47px;
+    width: 100%;
+    font-family: myFirstFont;
+    
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../text/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('../text/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins-EXlight;
+    src: url('../text/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url('../text//Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: poppins-Medium;
+    src: url('../text/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: bungee;
+    src: url('../text/Bungee-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url('../text/Poppins-Bold.ttf');
+}
+
+.brand{
+    width: 170px;
+    height:28px;
+}
+
+
+.nav-link{
+    font-family: poppins;
+  
+}
+
+.btn-1{
+    background-color: #6BB848;
+    padding: 8px 15px;
+    border-radius: 11px;
+    border: none;
+    color: #ffffff;
+    font-family: poppins;
+
+
+}
+
+
+
+.img-2{
+    height: 630px;
+    width: 600px;
+    
+}
+
+.main-text{
+    font-family: bungee;
+    font-size: 64px;
+    margin-top: 20px;
+    margin-left: -605px;
+}
+.second-text{
+   
+        font-family: bungee;
+        font-size: 64px;
+        margin-top: 20px;
+        position: absolute;
+        margin-top: 50px;
+        color: #ffffff;
+       margin-left: 15px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin-left: -605px;
+    
+}
+
+.about{
+    font-family: poppins;
+    width: 400px;
+    font-size: 20px;
+}
+
+.button-1{
+    padding: 8px 20px;
+    background-color: #2D823E;
+    border: none;
+    color: #ffffff;
+    border-radius: 11px;
+    font-family: poppins;
+
+}
+
+.arrow{
+    height: 35px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+.hero{
+    margin-top: 110px;
+}
+.icons{
+    background-color: #d9d9d931;
+    height: 141px;
+    margin-top: 60px;
+}
+
+.head-text{
+    font-family: poppins-bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    color: #2D823E;
+}
+
+.detail-text{
+    font-family: poppins;
+    font-size: 20px;
+    width: 40px;
+    color: #102615;
+
+}
+
+.card img{
+    height: 408px;
+}
+
+.next{
+    height: 200px;
+    background-image: url('../resorses/Rectangle10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body{
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 300px;
+    border-top-right-radius: 15px;
+  
+}
+
+.card-title{
+    font-family: 'poppins-medium';
+    color: #6BB848;
+}
+
+.card-text{
+    font-family: 'poppins-light';
+}
+
+.help{
+    height: 100px;
+    width: 35px;
+    background-color: #2D823E;
+    color: #ffffff;
+    position: absolute;
+   
+    
+}
+
+
+
+.footer-dark {
+    padding:50px 0;
+    color:#000000;
+    background-color:#6BB848;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:18px;
+    font-family: 'poppins';
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(4, 109, 36, 0.4);
+    margin:0 8px;
+    color:#2D823E;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+  .verticaltext{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    vertical-align: middle;
+    text-align: center;
+    
+ }
+
+ .SignIn-banner{
+    background-image: url('../resorses/sphere-with-trees.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    
+ }
+
+ .signIn{
+  background-color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+ }
+
+ .cen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+
+ .icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+ }
+
+ .ficon img{
+  width: 30px;
+  height: 30px;
+ }
+
+ .sicon img{
+  width: 30px;
+  height: 30px;
+ }
+
+ .ficon , .sicon{
+  padding: 6px;
+  border-radius: 10px;
+ }
+
+ .email1{
+  height: 15px;
+ }
+
+ .sign-btn{
+   border: none;
+   padding-left: 130px;
+   padding-right: 130px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #000000cc;
+   color: #ffffff;
+   border-radius: 5px;
+ }
+
+
+@media screen and (max-width: 680px) {
+  .img-2{
+    display: none;
+    
+  }
+
+  
+.main-text{
+  
+  font-size: 44px;
+  
+  margin-left: -615px;
+}
+.second-text{
+ 
+      
+      font-size: 44px;
+      margin-left: -615px;
+  
+}
+
+.about{
+  
+  width: 300px;
+  font-size: 20px;
+  
+}
+
+.icons .i1{
+  width: 2px;
+}
+
+ .signIn{
+  margin-top: 65px;
+  
+ }
+
+
+}
+
+.s1{
+  padding: 8px;
+  border-radius: 10px;
+  
+}
+

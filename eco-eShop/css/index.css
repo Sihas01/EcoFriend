@@ -1,0 +1,76 @@
+
+
+.main-image{
+    background-image: url('../resorses/pcdiyday-edgeup-feature-2.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.img-set{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    position: absolute;
+    margin-top: -20px;
+    left: 7%;
+}
+
+.img-set .img1, .img2 , .img3{
+    
+    background-color: rgb(236, 243, 243);
+    padding: 10px;
+    position: relative;
+}
+
+.product-view-set{
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 30px;
+}
+
+.product-view-set .Desktop-Items{
+   
+    margin-top: 150px;
+}
+
+.item-set{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+.item-1 img{
+    display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.product-view-set .Laptop-Items, .Home-Items{
+    height: 150px;
+    background-color: red;
+   
+}
+
+.product-view-set .Home-Items{
+    height: 150px;
+    background-color: red;
+   
+}
+
+.p-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}

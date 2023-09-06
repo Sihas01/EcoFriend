@@ -1,0 +1,16 @@
+.banner-d{
+    background-image: url('../resorses/hanging-bulb.jpg');
+   
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
+    
+  }
+
+  .brand{
+    width: 170px;
+    height:28px;
+}
